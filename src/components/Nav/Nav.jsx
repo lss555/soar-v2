@@ -1,9 +1,7 @@
-import { NavBar, scrollNav, NavBarContainer, MobileIcon, NavItem, NavLinkRight, NavLinkLeft, NavLogo, NavMenu, NavLogoContainer } from './Nav-styles.js'
+import { NavBar, scrollNav, NavBarContainer, MobileIcon, NavItem, NavLinkRight, NavLinkLeft, NavMenu, NavLogoContainer } from './Nav-styles.js'
 import React, { useState, useEffect } from 'react'
 import { FaBars } from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib'
-import SoarLogo from '../../assets/soarlogoblack.png'
-
 
 
 const Nav = ({ toggle }) => {
@@ -38,21 +36,21 @@ const Nav = ({ toggle }) => {
                   </MobileIcon>
                   <NavMenu>
                     <NavItem>
-                      <NavLinkLeft to='/about'>About</NavLinkLeft>
+                      <NavLinkLeft to='/contact'>Contact</NavLinkLeft>
                     </NavItem>
                     <NavItem>
                       <NavLinkLeft to='/cq'>FAQ</NavLinkLeft>
                     </NavItem>
                     <NavItem>
                       <NavLogoContainer to='/'>
-                        <NavLogo src={SoarLogo} />
+                        SOAR
                       </NavLogoContainer>
                     </NavItem>
                     <NavItem>
                       <NavLinkRight to='/service'>Services</NavLinkRight>
                     </NavItem>
                     <NavItem>
-                      <NavLinkRight to='/service'>Blog</NavLinkRight>
+                      <NavLinkRight to='/blog'>Blog</NavLinkRight>
                     </NavItem>
                   </NavMenu>
                 </NavBarContainer>

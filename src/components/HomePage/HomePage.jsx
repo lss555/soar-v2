@@ -4,7 +4,10 @@ import HomeHero from '../HomeHero/Home-Hero.jsx'
 const HomePage = () => {
 
 	return (
-		<HomeHero />
+		<div>
+			<h1>Home</h1>
+			<HomeHero />
+		</div>
 		);
 }
 

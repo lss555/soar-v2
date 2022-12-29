@@ -30,19 +30,15 @@ export const NavLogoContainer = styled(LinkR)`
   color: #010606;
   width: 100%;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 32px;
   margin-left: auto;
   margin-right: auto;
   font-weight: bold;
   text-decoration: none;
+  justify-content: center;
+  align-items: center;
 `;
 
-export const NavLogo = styled.img`
-  display: flex;
-  margin: auto;
-
-  height: 80px;
-`;
 
 export const MobileIcon = styled.div`
   display: none;
