@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .App-logo {
@@ -16,10 +19,9 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  
+  
+  
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -39,4 +41,12 @@
 
 .temp-class {
   min-height: 100vh;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
